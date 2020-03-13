@@ -65,7 +65,8 @@ let DallasTemperature = {
     let obj = Object.create(DallasTemperature._proto);
     // Initialize DallasTemperature library.
     // Return value: handle opaque pointer.
-    obj.dt = DallasTemperature._create(ow);
+    //obj.dt = DallasTemperature._create(ow);
+    obj = DallasTemperature._create(ow);
     return obj;
   },
 
